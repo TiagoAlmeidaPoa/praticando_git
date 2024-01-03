@@ -1,7 +1,7 @@
 comandos GIT
 
 git commit a.txt -m "comita somente esse arquivo" - para comitar um arquivo especifico.
-git commit -a -m "comita todos os arquivos" - esse comando faz o ( git add . ) e comima ao mesmo tempo.
+git commit -a -m "comita todos os arquivos" - esse comando faz o ( git add . ) e comita ao mesmo tempo.
 git rm arquivo.txt - remove o arquivo passado
 git mv rodape.css css/rodape.css - esse comando move o arquivo de um local para outro.
 git mv CSS/bannerinicia.css CSS/banner_inicia.css - esse comando também pode renomear o arquivo
