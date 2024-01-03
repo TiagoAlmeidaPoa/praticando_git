@@ -7,3 +7,5 @@ git mv rodape.css css/rodape.css - esse comando move o arquivo de um local para 
 git mv CSS/bannerinicia.css CSS/banner_inicia.css - esse comando também pode renomear o arquivo
 git checkout CSS/styles.css - desfaz a modificação realizado no arquivo passado no caso o ( CSS/styles.css )
 .gitignore - todos os caminhos de arquivos ou pastas passados nesse arquivo não são mapeados pelo git 
+git reset --hard origin/main - esse comando reseta para o estado do ultimo commit enviado
+
