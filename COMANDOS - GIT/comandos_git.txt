@@ -9,3 +9,10 @@ git checkout CSS/styles.css - desfaz a modificação realizado no arquivo passad
 .gitignore - todos os caminhos de arquivos ou pastas passados nesse arquivo não são mapeados pelo git 
 git reset --hard origin/main - esse comando reseta para o estado do ultimo commit enviado
 
+COMANDOS PARA BRANCHS
+
+git branch - esse comando é utilizado para visualizar as branchs
+git branch nomeDaBranch - esse comando é utilizado para criar uma nova branch
+
+
+
