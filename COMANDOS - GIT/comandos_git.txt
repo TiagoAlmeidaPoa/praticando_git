@@ -13,6 +13,7 @@ COMANDOS PARA BRANCHS
 
 git branch - esse comando é utilizado para visualizar as branchs
 git branch nomeDaBranch - esse comando é utilizado para criar uma nova branch
+git branch -d segundo_branch - esse comando é usado para deletar uma branch, nesse caso estou deletando a branch com nome de segundo_branch
 
 
 
