@@ -17,5 +17,5 @@ git branch -d segundo_branch - esse comando é usado para deletar uma branch, ne
 git checkout -b <nome da branch> - esse comando serve para mudar de branch
 git commit --amend --no-edit --date "2024-01-05T13:00" - comando para ajustar a data do ultimo commit
 git push --force - comando para forçar o ajuste da tada do comando anterior.
-
+git merge teste_branch - atualiza a branch pegando as alterações na branch passada, nesse caso a branch "teste_branch"
 
