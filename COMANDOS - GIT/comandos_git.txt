@@ -15,6 +15,7 @@ git branch - esse comando é utilizado para visualizar as branchs
 git branch nomeDaBranch - esse comando é utilizado para criar uma nova branch
 git branch -d segundo_branch - esse comando é usado para deletar uma branch, nesse caso estou deletando a branch com nome de segundo_branch
 git checkout -b <nome da branch> -> esse comando serve para mudar de branch
+
 git commit --amend --no-edit --date "2024-01-05T13:00" -> comando para ajustar a data do ultimo commit
 git push --force -> comando para forçar o ajuste da tada do comando anterior.
 git stash -> coloca os arquivos alterados no stash - basicamente deixa o seu codigo como estava antes das alterações realizadas
@@ -23,3 +24,7 @@ git stash apply 0 -> esse comando recupera o stash de acordo com o index que vc 
 git stash show -p -> verifica as mudanças de uma stash
 git stash clear -> limpa todas as stash da lista
 git stash drop 1 -> este comando deleta uma stash de acordo com o index passado, nesse caso foi o index 1
+
+TAG
+
+git tag -a v1.0 -m "Primeira versao de tag" -> comado cria tag (nome: v1.0 mensagem: "Primeira versao de tag")
