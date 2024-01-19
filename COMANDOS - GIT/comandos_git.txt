@@ -28,3 +28,5 @@ git stash drop 1 -> este comando deleta uma stash de acordo com o index passado,
 TAG
 
 git tag -a v1.0 -m "Primeira versao de tag" -> comado cria tag (nome: v1.0 mensagem: "Primeira versao de tag")
+git show - mostra todas as alterações nas tags
+git show v1.0 - mostra os detalhes da versao de tag passada na tag v1.0 nesse caso
